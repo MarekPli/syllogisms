@@ -154,7 +154,7 @@ const getSylog = () => {
         question2.innerText = m[0]
     }
     answer.innerHTML = m[2]
-    inp.setAttribute("value", `Pokaż wynik: co wiadomo o ${m[3]}?`)
+    inp.setAttribute("value", `Pokaż wniosek: co wiadomo o ${m[3]}?`)
     answer.style.color = colorAnswer
     nameSyl.style.visibility = 'hidden'
     nameSyl.innerHTML = m[4]
