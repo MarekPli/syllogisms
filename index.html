@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sylogizmy</title>
+    <link rel="stylesheet" href="sylog.css">
+    <script src="sylog.js" defer></script>
+</head>
+
+<body>
+    <button onclick="getSylog()">Wylosuj sylogizm</button>
+
+    <div class="question" id="question1"></div>
+    <div class="question" id="question2"></div>
+    <input type="button" value="Pokaż wynik" onmouseenter="getVisible(true)" onmouseleave="getVisible(false)">
+    <div class="question" id="answer"></div>
+    <input type="button" value="Co wiadomo o sylogizmie?" onmouseenter="getVisibleS(true)"
+        onmouseleave="getVisibleS(false)">
+    <div id="name-syl"></div>
+
+</body>
+
+</html>
