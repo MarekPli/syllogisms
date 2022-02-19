@@ -11,6 +11,7 @@ const termins = [
     ['Grek', 'Grecy', 'Grekiem', 'Grekami', 'Grekach'],
     ['buddysta', 'buddyści', 'buddystą', 'buddystami', 'buddystach'],
     ['dyplomata', 'dyplomaci', 'dyplomatą', 'dyplomatami', 'dyplomatach'],
+    ['dziennikarz', 'dziennikarze', 'dziennikarzem', 'dziennikarzami', 'dziennikarzach'],
     ['filozof', 'filozofowie', 'filozofem', 'filozofami', 'filozofach'],
     ['fizyk', 'fizycy', 'fizykiem', 'fizykami', 'fizykach'],
     ['geodeta', 'geodeci', 'geodetą', 'geodetami', 'geodetach'],
