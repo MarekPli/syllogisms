@@ -145,8 +145,14 @@ const getSylog = () => {
     const f = Math.floor(Math.random() * 4)
     const i = Math.floor(Math.random() * 6)
     const m = sylogizm(f, i)
-    question1.innerText = m[0]
-    question2.innerText = m[1]
+    const p = Math.floor(Math.random() * 2)
+    if (p) {
+        question1.innerText = m[0]
+        question2.innerText = m[1]
+    } else {
+        question1.innerText = m[1]
+        question2.innerText = m[0]
+    }
     answer.innerHTML = m[2]
     inp.setAttribute("value", `Pokaż wynik: co wiadomo o ${m[3]}?`)
     answer.style.color = colorAnswer
