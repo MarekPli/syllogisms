@@ -36,7 +36,7 @@ const termins = [
 const sylog = [
     ['Bar-ba-ra', 'Bar-ba-ri', 'Ce-la-rent', 'Ce-la-ront', 'Da-ri-i', 'Fe-ri-o'],
     ['Ces-ar-e', 'Ces-ar-o', 'Cam-es-tres',
-        'Cam-es-tros', 'Fes-ti-no', 'Ba-rocc-o'
+        'Cam-es-tros', 'Fes-ti-no', 'Ba-roc-o'
     ],
     ['Da-rap-ti', 'Dis-am-is', 'Da-tis-i', 'Fe-lap-ton', 'Boc-ar-do', 'Fe-ris-on'],
     ['Bam-a-lip', 'Ca-lem-es', 'Ca-lem-os', 'Dim-a-tis', 'Fes-ap-o', 'Fres-is-on']
@@ -110,7 +110,7 @@ const sylogizm = (f, n) => {
         q1 = sylText('M', arr[0], 'P', texts)
         q2 = sylText('M', arr[1], 'S', texts)
     } else if (f === 3) {
-        q1 = sylText('M', arr[0], 'P', texts)
+        q1 = sylText('P', arr[0], 'M', texts)
         q2 = sylText('M', arr[1], 'S', texts)
     } else
         q1 = `Błąd danych dla ${f}`
